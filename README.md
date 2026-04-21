@@ -10,3 +10,11 @@ Full CRUD Operations: Seamlessly create, read, update, and delete employee recor
 Dockerized Stack: Single-command deployment for the entire infrastructure.
 🛠️ Tech StackComponentTechnologyFrontendReact 18, 
 Axios, Tailwind CSSBackendJava 21, Spring Boot 3.x, Spring AIDatabaseMySQL 8.4DevOpsDocker, Docker Compose, Maven
+
+
+├── aipowered/              # Spring Boot Backend source code
+│   └── Dockerfile          # Backend container configuration
+├── frontend/ai-chat-ui/    # React Frontend source code
+│   └── Dockerfile          # Frontend container configuration
+├── docker-compose.yml      # Multi-container orchestration
+└── README.md               # Project documentation
